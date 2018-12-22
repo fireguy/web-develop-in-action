@@ -22,7 +22,7 @@ public class UserController {
     private UserService userService;
 
     @RequestMapping(value = "/getAllUsers", method = RequestMethod.GET)
-    public ModelAndView getAllStudent() {
+    public ModelAndView getAllUsers() {
         ModelAndView mav = new ModelAndView();
         mav.setViewName("usersDisplay");
         mav.addObject("users", userService.getAllUsers());
