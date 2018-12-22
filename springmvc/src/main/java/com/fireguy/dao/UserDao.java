@@ -6,6 +6,9 @@ import org.springframework.stereotype.Repository;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author slfu
+ */
 @Repository("userDao")
 public class UserDao {
 

@@ -9,6 +9,11 @@ import org.springframework.web.servlet.ModelAndView;
 
 import javax.annotation.Resource;
 
+
+/**
+ * @author slfu
+ */
+@SuppressWarnings("ALL")
 @Controller
 @RequestMapping("user")
 public class UserController {

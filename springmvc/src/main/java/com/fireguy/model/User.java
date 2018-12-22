@@ -1,5 +1,8 @@
 package com.fireguy.model;
 
+/**
+ * @author slfu
+ */
 public class User {
     /**
      * 姓名
